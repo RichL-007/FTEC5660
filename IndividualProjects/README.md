@@ -12,7 +12,7 @@ UNBench is a comprehensive multi-stage benchmark built on United Nations Securit
 🔗 https://arxiv.org/abs/2502.14122
 
 ## Contribution
-### Reproduction
+### Reproduction (Section 1-5 in notebook)
 
 Reproduced *Task 2（Simulate country voting behavior on draft resolutions）* by using **Llama 3.1 8B model in Together API** (one selected by the original author) to produce my own measured outputs.
 
@@ -22,7 +22,7 @@ Task Breakdown:
 - **Output:** Voting results (`Y` for Yes, `N` for No, `A` for Abstain) and evaluation metrics.
 - **File:** `data/task2.csv` and `data/task2/`
 
-### Modifications across two distinct dimensions
+### Modifications across two distinct dimensions (Section 6 and 7 in notebook)
 
 #### About prompt
 Added extra information in the prompt, including:
@@ -56,26 +56,29 @@ The entire project runs in Colab.
 
 1. **Copy the entire project folder to Google Drive:**
 
-Download the project files from GitHub to your computer, then upload the entire folder to Google Drive.
-Ensure the project structure remains consistent with me.
+   Download the project files from GitHub to your computer, then upload the entire folder to Google Drive.
+   
+   Ensure the project structure remains consistent with me.
 
 2. **Define the absolute path to your project's root directory.**
 
-   Change *BASE_DIR* in notebooks:
+   Change *BASE_DIR* in the notebook:
 
    ```python
    BASE_DIR = '/content/drive/MyDrive/FTEC5660/Individual project'
    ```
    
 3. Replace the API key with your own.
-- Vertex API and Together API were used in this notebook.
+   - Vertex API and Together API were used in this notebook.
 
-Get to [Together](https://api.together.ai/settings/api-keys) and [Vertex](https://console.cloud.google.com/vertex-ai/studio/settings/api-keys) to get your API.
+   Get to [Together](https://api.together.ai/settings/api-keys) and [Vertex](https://console.cloud.google.com/vertex-ai/studio/settings/api-keys) to get your API.
 
-To run the notebook, your API key must be stored it in a Colab Secret named 'VERTEX_API_KEY' and 'TOGETHER_API_KEY'
+   To run the notebook, your API key must be stored it in a Colab Secret named 'VERTEX_API_KEY' and 'TOGETHER_API_KEY'
 
 
 4. Run the `run_task2.ipynb` file.
+
+Further details regarding the code are provided in the text cells of the notebook.
 
 
 
