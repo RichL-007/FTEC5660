@@ -56,7 +56,7 @@ The entire project runs in Colab.
 
 1. **Keep the same project folder in Google Drive:**
 
-   Download the notebook here and dataset by https://drive.google.com/drive/folders/1Yq0HuN2zR-MIa6lJhpuTAp9jzp3UMQzb?usp=drive_link then upload them to Google Drive. Ensure the project structure remains consistent with me.
+   Download the notebook here and dataset by https://drive.google.com/drive/folders/1QseXqJZaaPcPc_xjX83s4jjAV8KqAGxY?usp=drive_link then upload them to Google Drive. Ensure the project structure remains consistent with me.
 
 2. **Define the absolute path to your project's root directory.**
 
