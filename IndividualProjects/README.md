@@ -41,7 +41,7 @@ Different models were employed, including:
 ```
 UNBench/
 │
-├── data/                         # task datasets
+├── data/                         # task datasets you need to download by Google Drive link
 │   ├── task2.csv                 # Task 2 - Voting simulation
 │   └── task2/                    # Raw draft files for Task 2
 │
@@ -54,11 +54,9 @@ UNBench/
 
 The entire project runs in Colab.
 
-1. **Copy the entire project folder to Google Drive:**
+1. **Keep the same project folder in Google Drive:**
 
-   Download the project files from GitHub to your computer, then upload the entire folder to Google Drive.
-   
-   Ensure the project structure remains consistent with me.
+   Download the notebook here and dataset by https://drive.google.com/drive/folders/1Yq0HuN2zR-MIa6lJhpuTAp9jzp3UMQzb?usp=drive_link then upload them to Google Drive. Ensure the project structure remains consistent with me.
 
 2. **Define the absolute path to your project's root directory.**
 
